@@ -64,9 +64,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="categoriesTableView" destination="jiV-In-LEp" id="18s-fA-U5m"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D4v-2M-ywF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,15 +101,8 @@
                         <viewLayoutGuide key="safeArea" id="sd2-Vi-hyk"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Category" id="R0U-Xa-Smh">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="EFI-qq-DeZ">
-                            <connections>
-                                <action selector="saveCategory:" destination="k7b-sj-U5k" id="0bj-B1-yaJ"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="EFI-qq-DeZ"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="titleTextField" destination="5vY-z5-ycT" id="gzS-sM-Dt6"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sK9-db-ExT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		5F40DB592527FF2300F56330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB582527FF2300F56330 /* AppDelegate.swift */; };
 		5F40DB5B2527FF2300F56330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB5A2527FF2300F56330 /* SceneDelegate.swift */; };
-		5F40DB5D2527FF2300F56330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB5C2527FF2300F56330 /* ViewController.swift */; };
 		5F40DB602527FF2300F56330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F40DB5E2527FF2300F56330 /* Main.storyboard */; };
 		5F40DB632527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB612527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodeld */; };
 		5F40DB652527FF2400F56330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F40DB642527FF2400F56330 /* Assets.xcassets */; };
 		5F40DB682527FF2400F56330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F40DB662527FF2400F56330 /* LaunchScreen.storyboard */; };
 		5F40DB732527FF2400F56330 /* Documents_Core_Data_RelationshipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB722527FF2400F56330 /* Documents_Core_Data_RelationshipsTests.swift */; };
 		5F40DB7E2527FF2400F56330 /* Documents_Core_Data_RelationshipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB7D2527FF2400F56330 /* Documents_Core_Data_RelationshipsUITests.swift */; };
+		5F40DB952528070600F56330 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB942528070600F56330 /* DocumentsViewController.swift */; };
+		5F40DB972528072C00F56330 /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB962528072C00F56330 /* NewDocumentViewController.swift */; };
+		5F40DB992528074500F56330 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB982528074500F56330 /* CategoriesViewController.swift */; };
+		5F40DB9B2528076300F56330 /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB9A2528076300F56330 /* NewCategoryViewController.swift */; };
+		5F40DBA025280E0200F56330 /* Document+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB9C25280E0200F56330 /* Document+CoreDataClass.swift */; };
+		5F40DBA125280E0200F56330 /* Document+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB9D25280E0200F56330 /* Document+CoreDataProperties.swift */; };
+		5F40DBA225280E0200F56330 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB9E25280E0200F56330 /* Category+CoreDataClass.swift */; };
+		5F40DBA325280E0200F56330 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DB9F25280E0200F56330 /* Category+CoreDataProperties.swift */; };
+		5F40DBA52528239300F56330 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F40DBA42528239300F56330 /* DocumentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		5F40DB552527FF2300F56330 /* Documents Core Data Relationships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Documents Core Data Relationships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F40DB582527FF2300F56330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F40DB5A2527FF2300F56330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F40DB5C2527FF2300F56330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F40DB5F2527FF2300F56330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F40DB622527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents_Core_Data_Relationships.xcdatamodel; sourceTree = "<group>"; };
 		5F40DB642527FF2400F56330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		5F40DB792527FF2400F56330 /* Documents Core Data RelationshipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Documents Core Data RelationshipsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F40DB7D2527FF2400F56330 /* Documents_Core_Data_RelationshipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents_Core_Data_RelationshipsUITests.swift; sourceTree = "<group>"; };
 		5F40DB7F2527FF2400F56330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F40DB942528070600F56330 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
+		5F40DB962528072C00F56330 /* NewDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
+		5F40DB982528074500F56330 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		5F40DB9A2528076300F56330 /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
+		5F40DB9C25280E0200F56330 /* Document+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5F40DB9D25280E0200F56330 /* Document+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5F40DB9E25280E0200F56330 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5F40DB9F25280E0200F56330 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5F40DBA42528239300F56330 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +117,18 @@
 		5F40DB572527FF2300F56330 /* Documents Core Data Relationships */ = {
 			isa = PBXGroup;
 			children = (
-				5F40DB582527FF2300F56330 /* AppDelegate.swift */,
-				5F40DB5A2527FF2300F56330 /* SceneDelegate.swift */,
-				5F40DB5C2527FF2300F56330 /* ViewController.swift */,
+				5F40DB932528065800F56330 /* Model */,
+				5F40DB942528070600F56330 /* DocumentsViewController.swift */,
+				5F40DB982528074500F56330 /* CategoriesViewController.swift */,
+				5F40DB962528072C00F56330 /* NewDocumentViewController.swift */,
+				5F40DB9A2528076300F56330 /* NewCategoryViewController.swift */,
+				5F40DBA42528239300F56330 /* DocumentTableViewCell.swift */,
 				5F40DB5E2527FF2300F56330 /* Main.storyboard */,
-				5F40DB642527FF2400F56330 /* Assets.xcassets */,
 				5F40DB662527FF2400F56330 /* LaunchScreen.storyboard */,
+				5F40DB5A2527FF2300F56330 /* SceneDelegate.swift */,
+				5F40DB582527FF2300F56330 /* AppDelegate.swift */,
 				5F40DB692527FF2400F56330 /* Info.plist */,
-				5F40DB612527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodeld */,
+				5F40DB642527FF2400F56330 /* Assets.xcassets */,
 			);
 			path = "Documents Core Data Relationships";
 			sourceTree = "<group>";
@@ -129,6 +149,18 @@
 				5F40DB7F2527FF2400F56330 /* Info.plist */,
 			);
 			path = "Documents Core Data RelationshipsUITests";
+			sourceTree = "<group>";
+		};
+		5F40DB932528065800F56330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F40DB9C25280E0200F56330 /* Document+CoreDataClass.swift */,
+				5F40DB9D25280E0200F56330 /* Document+CoreDataProperties.swift */,
+				5F40DB9E25280E0200F56330 /* Category+CoreDataClass.swift */,
+				5F40DB9F25280E0200F56330 /* Category+CoreDataProperties.swift */,
+				5F40DB612527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F40DB5D2527FF2300F56330 /* ViewController.swift in Sources */,
+				5F40DB952528070600F56330 /* DocumentsViewController.swift in Sources */,
 				5F40DB632527FF2300F56330 /* Documents_Core_Data_Relationships.xcdatamodeld in Sources */,
+				5F40DBA025280E0200F56330 /* Document+CoreDataClass.swift in Sources */,
+				5F40DBA225280E0200F56330 /* Category+CoreDataClass.swift in Sources */,
+				5F40DBA52528239300F56330 /* DocumentTableViewCell.swift in Sources */,
+				5F40DB992528074500F56330 /* CategoriesViewController.swift in Sources */,
 				5F40DB592527FF2300F56330 /* AppDelegate.swift in Sources */,
+				5F40DBA325280E0200F56330 /* Category+CoreDataProperties.swift in Sources */,
 				5F40DB5B2527FF2300F56330 /* SceneDelegate.swift in Sources */,
+				5F40DBA125280E0200F56330 /* Document+CoreDataProperties.swift in Sources */,
+				5F40DB9B2528076300F56330 /* NewCategoryViewController.swift in Sources */,
+				5F40DB972528072C00F56330 /* NewDocumentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
