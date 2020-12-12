@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F27EF9C2584572A00EB49AA /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */; };
+		5F27EF9D2584572A00EB49AA /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */; };
+		5F27EF9E2584572A00EB49AA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */; };
+		5F27EF9F2584572A00EB49AA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */; };
+		5F27EFA62584578400EB49AA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFA52584578400EB49AA /* TripViewCell.swift */; };
+		5F27EFAB2584579100EB49AA /* EntryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFAA2584579100EB49AA /* EntryViewCell.swift */; };
+		5F435F32258430960003AF81 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F31258430960003AF81 /* NewEntryViewController.swift */; };
+		5F435F3D258430AF0003AF81 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F3C258430AF0003AF81 /* EntriesViewController.swift */; };
+		5F435F45258433320003AF81 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F44258433320003AF81 /* AddTripViewController.swift */; };
+		5F7975472584259E00D60305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7975462584259E00D60305 /* AppDelegate.swift */; };
+		5F7975492584259E00D60305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7975482584259E00D60305 /* SceneDelegate.swift */; };
+		5F79754E2584259E00D60305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F79754C2584259E00D60305 /* Main.storyboard */; };
+		5F7975512584259E00D60305 /* Travelouge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F79754F2584259E00D60305 /* Travelouge.xcdatamodeld */; };
+		5F7975532584259F00D60305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7975522584259F00D60305 /* Assets.xcassets */; };
+		5F7975562584259F00D60305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7975542584259F00D60305 /* LaunchScreen.storyboard */; };
+		5F7975612584259F00D60305 /* TravelougeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7975602584259F00D60305 /* TravelougeTests.swift */; };
+		5F79756C2584259F00D60305 /* TravelougeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79756B2584259F00D60305 /* TravelougeUITests.swift */; };
+		5F7975802584261000D60305 /* TravelogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F79757F2584261000D60305 /* TravelogueViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F79755D2584259F00D60305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F79753B2584259E00D60305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F7975422584259E00D60305;
+			remoteInfo = Travelouge;
+		};
+		5F7975682584259F00D60305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F79753B2584259E00D60305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F7975422584259E00D60305;
+			remoteInfo = Travelouge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5F27EFA52584578400EB49AA /* TripViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewCell.swift; sourceTree = "<group>"; };
+		5F27EFAA2584579100EB49AA /* EntryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewCell.swift; sourceTree = "<group>"; };
+		5F435F31258430960003AF81 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		5F435F3C258430AF0003AF81 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
+		5F435F44258433320003AF81 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		5F7975432584259E00D60305 /* Travelouge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelouge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7975462584259E00D60305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F7975482584259E00D60305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F79754D2584259E00D60305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F7975502584259E00D60305 /* Travelouge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Travelouge.xcdatamodel; sourceTree = "<group>"; };
+		5F7975522584259F00D60305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F7975552584259F00D60305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F7975572584259F00D60305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F79755C2584259F00D60305 /* TravelougeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelougeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7975602584259F00D60305 /* TravelougeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelougeTests.swift; sourceTree = "<group>"; };
+		5F7975622584259F00D60305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7975672584259F00D60305 /* TravelougeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelougeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F79756B2584259F00D60305 /* TravelougeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelougeUITests.swift; sourceTree = "<group>"; };
+		5F79756D2584259F00D60305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F79757F2584261000D60305 /* TravelogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelogueViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7975402584259E00D60305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7975592584259F00D60305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7975642584259F00D60305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F27EFA32584574600EB49AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */,
+				5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */,
+				5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */,
+				5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */,
+				5F27EFA52584578400EB49AA /* TripViewCell.swift */,
+				5F27EFAA2584579100EB49AA /* EntryViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F27EFA42584575600EB49AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F435F31258430960003AF81 /* NewEntryViewController.swift */,
+				5F435F3C258430AF0003AF81 /* EntriesViewController.swift */,
+				5F435F44258433320003AF81 /* AddTripViewController.swift */,
+				5F79757F2584261000D60305 /* TravelogueViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F79753A2584259E00D60305 = {
+			isa = PBXGroup;
+			children = (
+				5F7975452584259E00D60305 /* Travelouge */,
+				5F79755F2584259F00D60305 /* TravelougeTests */,
+				5F79756A2584259F00D60305 /* TravelougeUITests */,
+				5F7975442584259E00D60305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7975442584259E00D60305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7975432584259E00D60305 /* Travelouge.app */,
+				5F79755C2584259F00D60305 /* TravelougeTests.xctest */,
+				5F7975672584259F00D60305 /* TravelougeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7975452584259E00D60305 /* Travelouge */ = {
+			isa = PBXGroup;
+			children = (
+				5F27EFA42584575600EB49AA /* Controllers */,
+				5F27EFA32584574600EB49AA /* Model */,
+				5F7975462584259E00D60305 /* AppDelegate.swift */,
+				5F7975482584259E00D60305 /* SceneDelegate.swift */,
+				5F79754C2584259E00D60305 /* Main.storyboard */,
+				5F7975522584259F00D60305 /* Assets.xcassets */,
+				5F7975542584259F00D60305 /* LaunchScreen.storyboard */,
+				5F7975572584259F00D60305 /* Info.plist */,
+				5F79754F2584259E00D60305 /* Travelouge.xcdatamodeld */,
+			);
+			path = Travelouge;
+			sourceTree = "<group>";
+		};
+		5F79755F2584259F00D60305 /* TravelougeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F7975602584259F00D60305 /* TravelougeTests.swift */,
+				5F7975622584259F00D60305 /* Info.plist */,
+			);
+			path = TravelougeTests;
+			sourceTree = "<group>";
+		};
+		5F79756A2584259F00D60305 /* TravelougeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F79756B2584259F00D60305 /* TravelougeUITests.swift */,
+				5F79756D2584259F00D60305 /* Info.plist */,
+			);
+			path = TravelougeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7975422584259E00D60305 /* Travelouge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7975702584259F00D60305 /* Build configuration list for PBXNativeTarget "Travelouge" */;
+			buildPhases = (
+				5F79753F2584259E00D60305 /* Sources */,
+				5F7975402584259E00D60305 /* Frameworks */,
+				5F7975412584259E00D60305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travelouge;
+			productName = Travelouge;
+			productReference = 5F7975432584259E00D60305 /* Travelouge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F79755B2584259F00D60305 /* TravelougeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7975732584259F00D60305 /* Build configuration list for PBXNativeTarget "TravelougeTests" */;
+			buildPhases = (
+				5F7975582584259F00D60305 /* Sources */,
+				5F7975592584259F00D60305 /* Frameworks */,
+				5F79755A2584259F00D60305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F79755E2584259F00D60305 /* PBXTargetDependency */,
+			);
+			name = TravelougeTests;
+			productName = TravelougeTests;
+			productReference = 5F79755C2584259F00D60305 /* TravelougeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F7975662584259F00D60305 /* TravelougeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7975762584259F00D60305 /* Build configuration list for PBXNativeTarget "TravelougeUITests" */;
+			buildPhases = (
+				5F7975632584259F00D60305 /* Sources */,
+				5F7975642584259F00D60305 /* Frameworks */,
+				5F7975652584259F00D60305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F7975692584259F00D60305 /* PBXTargetDependency */,
+			);
+			name = TravelougeUITests;
+			productName = TravelougeUITests;
+			productReference = 5F7975672584259F00D60305 /* TravelougeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F79753B2584259E00D60305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5F7975422584259E00D60305 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					5F79755B2584259F00D60305 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5F7975422584259E00D60305;
+					};
+					5F7975662584259F00D60305 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5F7975422584259E00D60305;
+					};
+				};
+			};
+			buildConfigurationList = 5F79753E2584259E00D60305 /* Build configuration list for PBXProject "Travelouge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F79753A2584259E00D60305;
+			productRefGroup = 5F7975442584259E00D60305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7975422584259E00D60305 /* Travelouge */,
+				5F79755B2584259F00D60305 /* TravelougeTests */,
+				5F7975662584259F00D60305 /* TravelougeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7975412584259E00D60305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7975562584259F00D60305 /* LaunchScreen.storyboard in Resources */,
+				5F7975532584259F00D60305 /* Assets.xcassets in Resources */,
+				5F79754E2584259E00D60305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F79755A2584259F00D60305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7975652584259F00D60305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F79753F2584259E00D60305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F27EF9D2584572A00EB49AA /* Trip+CoreDataProperties.swift in Sources */,
+				5F435F45258433320003AF81 /* AddTripViewController.swift in Sources */,
+				5F7975512584259E00D60305 /* Travelouge.xcdatamodeld in Sources */,
+				5F7975472584259E00D60305 /* AppDelegate.swift in Sources */,
+				5F27EF9F2584572A00EB49AA /* Entry+CoreDataProperties.swift in Sources */,
+				5F7975802584261000D60305 /* TravelogueViewController.swift in Sources */,
+				5F435F32258430960003AF81 /* NewEntryViewController.swift in Sources */,
+				5F7975492584259E00D60305 /* SceneDelegate.swift in Sources */,
+				5F27EF9C2584572A00EB49AA /* Trip+CoreDataClass.swift in Sources */,
+				5F27EF9E2584572A00EB49AA /* Entry+CoreDataClass.swift in Sources */,
+				5F435F3D258430AF0003AF81 /* EntriesViewController.swift in Sources */,
+				5F27EFA62584578400EB49AA /* TripViewCell.swift in Sources */,
+				5F27EFAB2584579100EB49AA /* EntryViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7975582584259F00D60305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7975612584259F00D60305 /* TravelougeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7975632584259F00D60305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79756C2584259F00D60305 /* TravelougeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F79755E2584259F00D60305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F7975422584259E00D60305 /* Travelouge */;
+			targetProxy = 5F79755D2584259F00D60305 /* PBXContainerItemProxy */;
+		};
+		5F7975692584259F00D60305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F7975422584259E00D60305 /* Travelouge */;
+			targetProxy = 5F7975682584259F00D60305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F79754C2584259E00D60305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F79754D2584259E00D60305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F7975542584259F00D60305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7975552584259F00D60305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F79756E2584259F00D60305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F79756F2584259F00D60305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F7975712584259F00D60305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Travelouge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.Travelouge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F7975722584259F00D60305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Travelouge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.Travelouge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F7975742584259F00D60305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.TravelougeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelouge.app/Travelouge";
+			};
+			name = Debug;
+		};
+		5F7975752584259F00D60305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.TravelougeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travelouge.app/Travelouge";
+			};
+			name = Release;
+		};
+		5F7975772584259F00D60305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.TravelougeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travelouge;
+			};
+			name = Debug;
+		};
+		5F7975782584259F00D60305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TravelougeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcmq6b.TravelougeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travelouge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F79753E2584259E00D60305 /* Build configuration list for PBXProject "Travelouge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F79756E2584259F00D60305 /* Debug */,
+				5F79756F2584259F00D60305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7975702584259F00D60305 /* Build configuration list for PBXNativeTarget "Travelouge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7975712584259F00D60305 /* Debug */,
+				5F7975722584259F00D60305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7975732584259F00D60305 /* Build configuration list for PBXNativeTarget "TravelougeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7975742584259F00D60305 /* Debug */,
+				5F7975752584259F00D60305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7975762584259F00D60305 /* Build configuration list for PBXNativeTarget "TravelougeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7975772584259F00D60305 /* Debug */,
+				5F7975782584259F00D60305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F79754F2584259E00D60305 /* Travelouge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F7975502584259E00D60305 /* Travelouge.xcdatamodel */,
+			);
+			currentVersion = 5F7975502584259E00D60305 /* Travelouge.xcdatamodel */;
+			path = Travelouge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F79753B2584259E00D60305 /* Project object */;
+}
