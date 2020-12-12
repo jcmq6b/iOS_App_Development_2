@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F27EF9C2584572A00EB49AA /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */; };
-		5F27EF9D2584572A00EB49AA /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */; };
-		5F27EF9E2584572A00EB49AA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */; };
-		5F27EF9F2584572A00EB49AA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */; };
 		5F27EFA62584578400EB49AA /* TripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFA52584578400EB49AA /* TripViewCell.swift */; };
 		5F27EFAB2584579100EB49AA /* EntryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFAA2584579100EB49AA /* EntryViewCell.swift */; };
+		5F27EFBF25845BD600EB49AA /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFBB25845BD600EB49AA /* Trip+CoreDataClass.swift */; };
+		5F27EFC025845BD600EB49AA /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFBC25845BD600EB49AA /* Trip+CoreDataProperties.swift */; };
+		5F27EFC125845BD600EB49AA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFBD25845BD600EB49AA /* Entry+CoreDataClass.swift */; };
+		5F27EFC225845BD600EB49AA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27EFBE25845BD600EB49AA /* Entry+CoreDataProperties.swift */; };
 		5F435F32258430960003AF81 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F31258430960003AF81 /* NewEntryViewController.swift */; };
 		5F435F3D258430AF0003AF81 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F3C258430AF0003AF81 /* EntriesViewController.swift */; };
 		5F435F45258433320003AF81 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F435F44258433320003AF81 /* AddTripViewController.swift */; };
@@ -45,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
-		5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
-		5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5F27EFA52584578400EB49AA /* TripViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewCell.swift; sourceTree = "<group>"; };
 		5F27EFAA2584579100EB49AA /* EntryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewCell.swift; sourceTree = "<group>"; };
+		5F27EFBB25845BD600EB49AA /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5F27EFBC25845BD600EB49AA /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5F27EFBD25845BD600EB49AA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		5F27EFBE25845BD600EB49AA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		5F435F31258430960003AF81 /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
 		5F435F3C258430AF0003AF81 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
 		5F435F44258433320003AF81 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +99,10 @@
 		5F27EFA32584574600EB49AA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5F27EF982584572A00EB49AA /* Trip+CoreDataClass.swift */,
-				5F27EF992584572A00EB49AA /* Trip+CoreDataProperties.swift */,
-				5F27EF9A2584572A00EB49AA /* Entry+CoreDataClass.swift */,
-				5F27EF9B2584572A00EB49AA /* Entry+CoreDataProperties.swift */,
+				5F27EFBB25845BD600EB49AA /* Trip+CoreDataClass.swift */,
+				5F27EFBC25845BD600EB49AA /* Trip+CoreDataProperties.swift */,
+				5F27EFBD25845BD600EB49AA /* Entry+CoreDataClass.swift */,
+				5F27EFBE25845BD600EB49AA /* Entry+CoreDataProperties.swift */,
 				5F27EFA52584578400EB49AA /* TripViewCell.swift */,
 				5F27EFAA2584579100EB49AA /* EntryViewCell.swift */,
 			);
@@ -112,10 +112,10 @@
 		5F27EFA42584575600EB49AA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5F435F31258430960003AF81 /* NewEntryViewController.swift */,
 				5F435F3C258430AF0003AF81 /* EntriesViewController.swift */,
-				5F435F44258433320003AF81 /* AddTripViewController.swift */,
+				5F435F31258430960003AF81 /* NewEntryViewController.swift */,
 				5F79757F2584261000D60305 /* TravelogueViewController.swift */,
+				5F435F44258433320003AF81 /* AddTripViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -304,18 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F27EF9D2584572A00EB49AA /* Trip+CoreDataProperties.swift in Sources */,
+				5F27EFC025845BD600EB49AA /* Trip+CoreDataProperties.swift in Sources */,
 				5F435F45258433320003AF81 /* AddTripViewController.swift in Sources */,
 				5F7975512584259E00D60305 /* Travelouge.xcdatamodeld in Sources */,
 				5F7975472584259E00D60305 /* AppDelegate.swift in Sources */,
-				5F27EF9F2584572A00EB49AA /* Entry+CoreDataProperties.swift in Sources */,
 				5F7975802584261000D60305 /* TravelogueViewController.swift in Sources */,
+				5F27EFC225845BD600EB49AA /* Entry+CoreDataProperties.swift in Sources */,
+				5F27EFBF25845BD600EB49AA /* Trip+CoreDataClass.swift in Sources */,
 				5F435F32258430960003AF81 /* NewEntryViewController.swift in Sources */,
 				5F7975492584259E00D60305 /* SceneDelegate.swift in Sources */,
-				5F27EF9C2584572A00EB49AA /* Trip+CoreDataClass.swift in Sources */,
-				5F27EF9E2584572A00EB49AA /* Entry+CoreDataClass.swift in Sources */,
 				5F435F3D258430AF0003AF81 /* EntriesViewController.swift in Sources */,
 				5F27EFA62584578400EB49AA /* TripViewCell.swift in Sources */,
+				5F27EFC125845BD600EB49AA /* Entry+CoreDataClass.swift in Sources */,
 				5F27EFAB2584579100EB49AA /* EntryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
